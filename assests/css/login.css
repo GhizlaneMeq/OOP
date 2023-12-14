@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  padding: 50px;
+  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.logo img {
+  width: 90%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.signin-form {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.signin-text {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid green;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  padding: 13px;
+  width: 100px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.or-divider {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-login {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.no-account {
+  text-align: center;
+}

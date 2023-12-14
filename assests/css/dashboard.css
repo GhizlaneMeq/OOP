@@ -1,0 +1,213 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .navigation {
+            width: 300px;
+            background-color: rgb(37, 77, 37);
+            color: #fff;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        .navigation li {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0);
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .navigation a:hover{
+            padding: 20px 300px;
+            border-radius: 15px;
+            font-size: 20px;
+            background-color: white;
+            color: rgb(37, 77, 37);
+        }
+
+        .main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .admin {
+            display: flex;
+            align-items: center;
+        }
+
+        .admin p {
+            margin: 0;
+            margin-left: 10px;
+        }
+
+        .cardBox {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+        }
+
+        .cardName {
+            font-size: 18px;
+            margin-top: 10px;
+            color: green;
+        }
+
+        .details {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cardHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: green;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: green;
+            color: #fff;
+        }
+
+        thead td {
+            padding: 10px;
+        }
+
+        tbody td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody img {
+            max-width: 45px;
+            border-radius: 50%;
+        }
+ 
+
+     
+
+        .containerr {
+            margin-left: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .mainn {
+            width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .topbar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: green;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .form-container {
+            text-align: center;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            margin-top: 10px;
+        }
+        
+        input,
+        select {
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        
